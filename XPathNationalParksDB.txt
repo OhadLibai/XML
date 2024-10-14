@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+---
+
+<!-- Q1:
+Name all the national parks in the file --> 
+
+<!-- //NationalPark/data(@name) -->
+
+UntypedAtomic='PortHorizon'
+UntypedAtomic='LoviLoper'
+---
+
+<!-- Q2:
+Name all the protected flowers in the file -->
+
+<!-- //Flower[Protected="Yes"]/data(@name) -->
+
+UntypedAtomic='Seslioni'
+UntypedAtomic='Candy'
+---
+
+<!-- Q3:
+List all the mammals in the database -->
+
+<!-- //Animal[Classification="Mammal"]/data(@name) -->
+
+UntypedAtomic='Xior'
+UntypedAtomic='Yoo Jack'
+UntypedAtomic='Crosslif'
+---
+
+<!-- Q4:
+Name trees that it takes more than twenty years to grow -->
+
+<!-- //Tree[YearsToGrow>20]/data(@name) -->
+
+UntypedAtomic='Poers'
+UntypedAtomic='Selvish'
+---

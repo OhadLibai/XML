@@ -1,0 +1,70 @@
+<!DOCTYPE NationalParks [
+    <!ELEMENT NationalParks (NationalPark)*>
+    <!ELEMENT NationalPark (Location, Flora, Fauna, WaysOfAccess, Travelling,
+                            Publicity, Maintenance, Business)>
+    <!ATTLIST NationalPark id CDATA #REQUIRED
+                           name CDATA #REQUIRED
+                           size CDATA #IMPLIED>
+
+    <!ELEMENT Location (Country, Orientation)>
+    <!ELEMENT Flora (Trees? , Plants? , Flowers?)>
+    <!ELEMENT Fauna ((Animal?)*)>
+    <!ELEMENT WaysOfAccess (Entrance+)>
+    <!ELEMENT Travelling (Walkthrough+ , ReccommendedSeason?)>
+    <!ELEMENT Publicity (Website, Rating?, Popularity?, AnnualVisitors?)>
+    <!ELEMENT Maintenance (Remark?, AnnualCost, Employees)>
+    <!ELEMENT Business (FoodStands? , Attractions?)>
+
+    <!ELEMENT Country (#PCDATA)>
+    <!ELEMENT Orientation (#PCDATA)>
+
+    <!ELEMENT Trees (Tree+)>
+    <!ELEMENT Plants (Plant+)>
+    <!ELEMENT Flowers (Flower+)>
+
+    <!ELEMENT Animal (Classification, Ubiquity?, Endangered?)>
+    <!ATTLIST Animal name CDATA #REQUIRED>
+
+    <!ELEMENT Entrance (#PCDATA)>
+    <!ELEMENT Walkthrough (Difficulity, Course)>
+    <!ELEMENT ReccomendedSeason (#PCDATA)>
+
+    <!ELEMENT Website (#PCDATA)>
+    <!ELEMENT Popularity (#PCDATA)> 
+    <!ELEMENT AnnualVisitors (#PCDATA)>
+
+    <!ELEMENT Remark (#PCDATA)>
+    <!ELEMENT AnnualCost (#PCDATA)>
+    <!ELEMENT Employees (#PCDATA)>
+
+    <!ELEMENT FoodStands (FoodStand+)>
+    <!ELEMENT Attractions (Attraction+)>
+
+    <!ELEMENT Tree (Color, YearsToGrow? , Ubiquity?)>
+    <!ATTLIST Tree name CDATA #REQUIRED>
+
+    <!ELEMENT Plant (Color, YearsToGrow? , Fruity , Ubiquity?)>
+    <!ATTLIST Plant name CDATA #REQUIRED>
+
+    <!ELEMENT Flower (Color, Seasonal, FlourishSeason?, Ubiquity? , Protected?)>
+    <!ATTLIST FLower name CDATA #REQUIRED>
+
+    <!ELEMENT Classification (#PCDATA)>
+    <!ELEMENT Ubiquity (#PCDATA)>
+    <!ELEMENT Endangared (#PCDATA)>
+
+    <!ELEMENT Difficuility (#PCDATA)>
+    <!ELEMENT Course (#PCDATA)>
+
+    <!ELEMENT FoodStand (#PCDATA)>
+    <!ELEMENT Attraction (#PCDATA)>
+
+    <!ELEMENT Color (#PCDATA)>
+    <!ELEMENT YearsToGrow (#PCDATA)>
+
+    <!ELEMENT Fruity (#PCDATA)>
+
+    <!ELEMENT Seasonal (#PCDATA)>
+    <!ELEMENT FlourishSeason (#PCDATA)>
+    <!ELEMENT Protected (#PCDATA)>
+]>

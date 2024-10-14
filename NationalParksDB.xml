@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<NationalParks>
+    <NationalPark id="001" name="PortHorizon" size="10000">
+
+        <Location>
+            <Country>USA</Country>
+            <Orientation>West</Orientation>
+        </Location>
+
+        <Flora>
+            <Trees>
+                <Tree name="Oclicipus">
+                    <Color>Red</Color>
+                    <YearsToGrow>20</YearsToGrow>
+                    <Ubiquity>2000 units</Ubiquity>
+                </Tree>
+
+                <Tree name="Silfositus">
+                    <Color>Green</Color>
+                    <YearsToGrow>10</YearsToGrow>
+                    <Ubiquity>5000 units</Ubiquity>
+                </Tree>
+            </Trees>
+
+            <Plants>
+                <Plant name="Faunay">
+                    <Color>Purple</Color>
+                    <YearsToGrow>3</YearsToGrow>
+                    <Fruity>Yes</Fruity>
+                    <Ubiquity>200 units</Ubiquity>
+                </Plant>
+            </Plants>
+
+            <Flowers>
+                <Flower name="Seslioni">
+                    <Color>Pink</Color>
+                    <Seasonal>Yes</Seasonal>
+                    <FlourishSeason>Winter</FlourishSeason>
+                    <Ubiquity>20000 units</Ubiquity>
+                    <Protected>Yes</Protected>
+                </Flower>
+
+                <Flower name="Nibvros">
+                    <Color>Red</Color>
+                    <Seasonal>No</Seasonal>
+                    <Ubiquity>80000 units</Ubiquity>
+                    <Protected>No</Protected>
+                </Flower>
+            </Flowers>
+        </Flora>
+
+        <Fauna>
+            <Animal name="Birdy Wingy">
+                <Classification>Bird</Classification>
+                <Ubiquity>350 units</Ubiquity>    
+                <Endangered>No</Endangered>
+            </Animal>
+
+            <Animal name="Xior">
+                <Classification>Mammal</Classification>
+                <Ubiquity>100 units</Ubiquity>    
+                <Endangered>Yes</Endangered>
+            </Animal>
+
+            <Animal name="Liobel Tips">
+                <Classification>Reptile</Classification>
+                <Ubiquity>750 units</Ubiquity>    
+                <Endangered>No</Endangered>
+            </Animal>
+        </Fauna>
+
+        <WaysOfAccess>
+            <Entrance>www.PortHorizon/entrance/maps.com</Entrance>
+        </WaysOfAccess>
+
+        <Travelling>
+            <Walkthrough>
+                <Difficulity>Easy</Difficulity>
+                <Course>www.PortHorizon/easycourse/maps.com</Course>
+            </Walkthrough>
+
+            <Walkthrough>
+                <Difficulity>Hard</Difficulity>
+                <Course>www.PortHorizon/hardcourse/maps.com</Course>
+            </Walkthrough>
+
+            <ReccomendedSeason>Spring</ReccomendedSeason>
+        </Travelling>
+
+        <Publicity>
+            <Website>www.PortHorizon.com</Website>
+            <Popularity>High</Popularity>   
+            <Rating>5 stars</Rating>
+            <AnnualVisitors>500000</AnnualVisitors>
+        </Publicity>
+
+        <Maintenance>
+            <Remark>Great deal done preserving the National Park</Remark>
+            <AnnualCost>80000</AnnualCost>
+            <Employees>4</Employees>
+        </Maintenance>
+
+        <Business>
+            <FoodStands>
+                <FoodStand>Mally Delicious</FoodStand>
+            </FoodStands>
+
+            <Attractions>
+                <Attraction>Dobi's Pet-Sallon</Attraction>
+            </Attractions>                   
+        </Business>
+
+    </NationalPark>     
+
+
+    <NationalPark id="002" name="LoviLoper" size="25000">
+
+        <Location>
+            <Country>USA</Country>
+            <Orientation>East</Orientation>
+        </Location>
+
+        <Flora>
+            <Trees>
+                <Tree name="Poers">
+                    <Color>White</Color>
+                    <YearsToGrow>50</YearsToGrow>
+                </Tree>
+
+                <Tree name="Recvish">
+                    <Color>Green</Color>
+                    <YearsToGrow>13</YearsToGrow>
+                    <Ubiquity>7500 units</Ubiquity>
+                </Tree>
+
+                <Tree name="Selvish">
+                    <Color>Black</Color>
+                    <YearsToGrow>40</YearsToGrow>
+                    <Ubiquity>50 units</Ubiquity>
+                </Tree>
+            </Trees>
+
+            <Plants>
+                <Plant name="Tinkes">
+                    <Color>White</Color>
+                    <YearsToGrow>28</YearsToGrow>
+                    <Fruity>No</Fruity>
+                    <Ubiquity>800 units</Ubiquity>
+                </Plant>
+
+                <Plant name="Shoobi Doobi">
+                    <Color>Red</Color>
+                    <YearsToGrow>4</YearsToGrow>
+                    <Fruity>Yes</Fruity>
+                    <Ubiquity>10000 units</Ubiquity>
+                </Plant>
+            </Plants>
+
+            <Flowers>
+                <Flower name="Candy">
+                    <Color>Pink</Color>
+                    <Seasonal>Yes</Seasonal>
+                    <FlourishSeason>Winter</FlourishSeason>
+                    <Ubiquity>15000 units</Ubiquity>
+                    <Protected>Yes</Protected>
+                </Flower>
+            </Flowers>
+        </Flora>
+
+        <Fauna>
+            <Animal name="Yoo Jack">
+                <Classification>Mammal</Classification>
+                <Ubiquity>970 units</Ubiquity>    
+                <Endangered>No</Endangered>
+            </Animal>
+
+            <Animal name="Crosslif">
+                <Classification>Mammal</Classification>
+                <Ubiquity>150 units</Ubiquity>    
+                <Endangered>No</Endangered>
+            </Animal>
+
+            <Animal name="Chiefly">
+                <Classification>Reptile</Classification>    
+            </Animal>
+
+            <Animal name="Kusba">
+                <Classification>Fish</Classification>
+                <Ubiquity>15000</Ubiquity>    
+                <Endangered>No</Endangered>
+            </Animal>
+
+            <Animal name="Birdy Wingy">
+                <Classification>Bird</Classification>
+                <Ubiquity>550 units</Ubiquity>    
+                <Endangered>No</Endangered>
+            </Animal>
+        </Fauna>
+
+        <WaysOfAccess>
+            <Entrance>www.LoviLoper/entrance1/maps.com</Entrance>
+            <Entrance>www.LoviLoper/entrance2/maps.com</Entrance>
+        </WaysOfAccess>
+
+        <Travelling>
+            <Walkthrough>
+                <Difficulity>Easy</Difficulity>
+                <Course>www.LoviLoper/easycourse/maps.com</Course>
+            </Walkthrough>
+
+            <Walkthrough>
+                <Difficulity>Medium</Difficulity>
+                <Course>www.LoviLoper/mediumcourse/maps.com</Course>
+            </Walkthrough>
+
+            <ReccomendedSeason>Winter</ReccomendedSeason>
+        </Travelling>
+
+        <Publicity>
+            <Website>www.LoviLoper.com</Website>
+            <Rating>3.5 stars</Rating>
+            <Popularity>Medium</Popularity>
+            <AnnualVisitors>250000</AnnualVisitors>
+        </Publicity>
+
+        <Maintenance>
+            <AnnualCost>70000</AnnualCost>
+            <Employees>3</Employees>
+        </Maintenance>
+
+        <Business>
+            <FoodStands>
+                <FoodStand>Groovy Delicious</FoodStand>
+            </FoodStands>                   
+        </Business>
+        
+    </NationalPark>     
+
+</NationalParks>
